@@ -131,6 +131,7 @@ function attachEvents()
     let btn = $(".button");
     btn.click(function()
     {
+        btn.removeClass("selected");
         $(this).toggleClass("selected");
     });
 }
